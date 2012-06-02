@@ -1,3 +1,13 @@
 name: SimpleCraft
 main: com.jk.simplecraft.Main
-version: 2190
+version: 0.2
+commands:
+  simplecraft:
+    description: Quit Out Of RAGE!
+    usage: /simplecraft
+    permission: simplecraft.info
+    permission-message: Sorry, you can't do that :(
+permissions:
+  simplecraft.info:
+    description: Allows user to see simplecraft information
+    default: true
